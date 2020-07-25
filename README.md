@@ -38,6 +38,10 @@
  - Executar um cadastro de uma conta(Ele vai logar automaticamente)
  - Sair pelo Botão, e logar novamente com a conta criada
  
+ ### Obs
+
+use a api diponível em: - [Ver](https://github.com/milenavms/api-cad-cliente)
+ 
  
  
  
