@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp"
+    tools:context=".atividades.ConfiguracaoActivity">
+    <EditText
+        android:id="@+id/et_host"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:hint="192.168.0.3"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+    <Button
+        android:id="@+id/bt_gravar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/botao_retangulo_padrao"
+        android:textColor="#FFF"
+        app:layout_constraintTop_toBottomOf="@+id/et_host"
+        android:layout_marginTop="20dp"
+        android:text="Gravar"/>
+    <Button
+        android:id="@+id/bt_restaurar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/botao_retangulo_padrao"
+        android:textColor="#FFF"
+        app:layout_constraintBottom_toTopOf="@+id/bt_cancelar"
+        android:layout_marginBottom="20dp"
+        android:text="Restaurar Padrão"/>
+    <Button
+        android:id="@+id/bt_cancelar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/botao_retangulo_vermelho"
+        android:textColor="#FFF"
+        android:layout_marginBottom="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="Cancelar"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
